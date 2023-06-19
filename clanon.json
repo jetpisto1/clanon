@@ -87,4 +87,4 @@ async def on_message(message):
         await message.channel.send('**ex) -물 2 , -마 6 , -다이스 , -팀 [닉네임 띄어쓰기로 입력]**' )
 
 # 디스코드 봇 토큰을 입력합니다.
-client.run('MTExMzMwNTk1NzA4MzEzMTkyNA.GLHBnp.Ljzq8kE9CiwKlg6aVPBZxs7U6ca1QI0DKnQ9lg')
+client.run('MTExMzMwNTk1NzA4MzEzMTkyNA.GYMgWW.EDnzDPBdbh8j0txCw9CUY6f05WhfiNB0a2qh5M')
