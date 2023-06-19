@@ -1,0 +1,19 @@
+# 빈 딕셔너리 생성
+user_points = {}
+
+# 점수 지급
+user_points['커피콩'] = 0
+user_points['위켄드'] = 0
+user_points['마르'] = 0
+
+# 점수 조회
+points = user_points['user1']
+print(f"user1의 점수: {points}")  # 출력: user1의 점수: 100
+
+# 점수 갱신
+user_points['user1'] = 120
+print(f"user1의 갱신된 점수: {user_points['user1']}")  # 출력: user1의 갱신된 점수: 120
+
+# 점수 삭제
+del user_points['user2']
+print(user_points)  # 출력: {'user1': 120, 'user3': 150}
